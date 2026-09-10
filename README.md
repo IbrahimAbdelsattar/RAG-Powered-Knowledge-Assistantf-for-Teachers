@@ -1,225 +1,224 @@
-# 📚 Teacher's AI Knowledge Assistant
+<br/><br/>
 
-> **A RAG-powered (Retrieval-Augmented Generation) web application** that helps teachers upload educational documents, ask natural language questions, generate quizzes, and receive accurate, source-cited answers — all running **100% locally** with no paid API keys.
+<!-- Animated Title -->
+<a href="#">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=36&pause=1000&color=7C3AED&center=true&vCenter=true&width=800&lines=Rag Powered Knowledge Assistantf For Teachers+%F0%9F%9A%80;Enterprise+Data+Science+%26+AI;Interactive+Analytics+%26+ML;Built+by+Ibrahim+Abdelsattar" alt="Typing SVG"/>
+</a>
+
+<br/>
+
+<p align="center">
+  <b>Enterprise-Grade Data Science & Software Engineering Solution</b><br/>
+  <i>Data Visualization (Matplotlib/Seaborn/Plotly) · Hugging Face Transformers · LangChain · NLP (NLTK/spaCy) · Pandas & NumPy</i>
+</p>
+
+<br/>
+
+<!-- Badges Row -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Data%20Visualization%20(Matplotlib%2FSeaborn%2FPlotly)-7C3AED?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Hugging%20Face%20Transformers-7C3AED?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LangChain-7C3AED?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NLP%20(NLTK%2FspaCy)-7C3AED?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pandas%20&%20NumPy-7C3AED?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PyTorch-7C3AED?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/License-Academic-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/>
+</p>
+
+<br/>
+
+<!-- Quick Links -->
+<p align="center">
+  <a href="#-overview"><img src="https://img.shields.io/badge/📌-Overview-7C3AED?style=flat-square"/></a>
+  &nbsp;
+  <a href="#-core-features"><img src="https://img.shields.io/badge/🔥-Features-E11D48?style=flat-square"/></a>
+  &nbsp;
+  <a href="#%EF%B8%8F-system-architecture"><img src="https://img.shields.io/badge/🏗️-Architecture-0891B2?style=flat-square"/></a>
+  &nbsp;
+  <a href="#-technical-stack"><img src="https://img.shields.io/badge/⚙️-Tech%20Stack-16A34A?style=flat-square"/></a>
+  &nbsp;
+  <a href="#-getting-started"><img src="https://img.shields.io/badge/🚀-Getting%20Started-F59E0B?style=flat-square"/></a>
+</p>
+
+<br/>
 
 ---
 
-## 🎯 Features
+## 📌 Overview
 
-| Feature | Description |
-|---------|-------------|
-| **📤 Document Upload** | Upload PDF, DOCX, or TXT files with automatic parsing and indexing |
-| **💬 Question Answering** | Ask natural language questions and get grounded, cited answers |
-| **📝 Quiz Generation** | Auto-create multiple-choice quizzes by topic or document |
-| **📄 Summarisation** | Generate concise summaries with compression statistics |
-| **📊 Analytics** | Retrieval quality metrics, similarity charts, timing breakdowns |
-| **🔍 Source Citations** | Every answer includes the source document and page number |
-| **💾 Persistent Storage** | ChromaDB stores your knowledge base across sessions |
+**Rag Powered Knowledge Assistantf For Teachers** is an advanced software and data science repository engineered by **Ibrahim Abdelsattar**. It implements end-to-end data processing pipelines, predictive machine learning models, and production-ready code structures tailored for analytical precision and operational reliability.
+
+> Designed for seamless integration, high scalability, and robust computational performance.
 
 ---
 
-## 🏗️ Architecture
+## 🎯 Problem & Solution Architecture
+
+<table>
+<tr>
+<td width="50%">
+
+### ❌ The Challenge
+
+Traditional analytical approaches face critical operational limitations:
+
+- 📉 Manual data wrangling and non-standardized preprocessing
+- 🔮 Lack of feature attribution and model explainability
+- ⚠️ Unoptimized hyperparameters leading to sub-optimal accuracy
+- 🔄 Inefficient deployment workflows and missing pipeline automation
+
+</td>
+<td width="50%">
+
+### ✅ Our Solution
+
+| Challenge | Implemented Solution |
+|-----------|----------------------|
+| Raw Data Noise | Automated cleaning & feature encoding |
+| Low Accuracy | Tuned ML ensembles & robust evaluation |
+| Deployment Gaps | Modular CLI/Web interfaces & reproducible scripts |
+| Missing Insights | Visual metric plots & structured reporting |
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🔥 Core Features
+
+<table>
+<tr>
+
+<td align="center" width="33%">
+<br/>
+<b>🤖 Machine Learning Models</b><br/><br/>
+• Logistic Regression<br/>• Random Forest<br/>• Support Vector Machine (SVM)<br/>
+Automated Hyperparameter Tuning<br/>
+Cross-Validation Pipeline<br/><br/>
+</td>
+<td align="center" width="33%">
+<br/>
+<b>📊 Data Preprocessing & EDA</b><br/><br/>
+Automated Missing Value Imputation<br/>
+Feature Engineering & Scaling<br/>
+Outlier Detection & Removal<br/>
+Exploratory Data Analysis Plots<br/><br/>
+</td>
+<td align="center" width="33%">
+<br/>
+<b>🎯 Production Guardrails</b><br/><br/>
+Strict Input Validation<br/>
+Reproducible Seed Setting<br/>
+Model Artifact Persistence<br/>
+Comprehensive Logging<br/><br/>
+</td>
+</tr>
+</table>
+
+---
+
+## 🏗️ System Architecture & Data Flow
+
+<br/>
+
+```mermaid
+flowchart LR
+    A["📥 Data Ingestion
+Raw Datasets / Inputs"] --> B["🧹 Preprocessing & Cleaning
+Feature Scaling & Encoding"]
+    B --> C["⚙️ Feature Engineering
+Domain Transformation"]
+    C --> D["🤖 Machine Learning Pipeline
+Model Training & Evaluation"]
+    D --> E["📊 Predictive Output & Metrics
+Interactive Dashboard / Reports"]
+    style A fill:#1e1b4b,color:#a5b4fc
+    style B fill:#312e81,color:#c7d2fe
+    style D fill:#1e3a5f,color:#93c5fd
+    style E fill:#14532d,color:#86efac
+```
+
+---
+
+## ⚙️ Technical Stack
+
+<div align="center">
+
+| Layer | Technology | Purpose |
+|-------|-----------|---------|
+| **Data Visualization (Matplotlib/Seaborn/Plotly)** | Core Framework / Library | Primary computing and analytical engine |
+| **Hugging Face Transformers** | Core Framework / Library | Primary computing and analytical engine |
+| **LangChain** | Core Framework / Library | Primary computing and analytical engine |
+| **NLP (NLTK/spaCy)** | Core Framework / Library | Primary computing and analytical engine |
+| **Pandas & NumPy** | Core Framework / Library | Primary computing and analytical engine |
+| **PyTorch** | Core Framework / Library | Primary computing and analytical engine |
+| **Scikit-Learn** | Core Framework / Library | Primary computing and analytical engine |
+| **Streamlit** | Core Framework / Library | Primary computing and analytical engine |
+| **Vector Database (Chroma/FAISS)** | Core Framework / Library | Primary computing and analytical engine |
+
+</div>
+
+---
+
+
+
+## 📁 Directory Structure
+
+<details>
+<summary><b>📂 Click to expand repository tree</b></summary>
 
 ```
-teacher_rag/
-├── app.py                        # Streamlit entry point
-├── configs/
-│   └── config.yaml               # All settings and model parameters
-├── src/
-│   ├── ingestion/
-│   │   ├── parser.py             # PDF / DOCX / TXT extraction
-│   │   └── cleaner.py            # Text cleaning & normalisation
-│   ├── chunking/
-│   │   └── chunker.py            # Fixed-size & recursive splitting
-│   ├── embedding/
-│   │   └── embedder.py           # Sentence-transformer embeddings
-│   ├── vectorstore/
-│   │   └── store.py              # ChromaDB vector store wrapper
-│   ├── retrieval/
-│   │   └── retriever.py          # Semantic search + cross-encoder reranking
-│   ├── generation/
-│   │   ├── prompt_builder.py     # Prompt templates (QA, summary, quiz)
-│   │   └── generator.py          # HuggingFace LLM wrapper
-│   ├── pipeline/
-│   │   └── rag_pipeline.py       # Unified orchestrator
-│   ├── features/
-│   │   ├── summarizer.py         # Map-reduce document summarisation
-│   │   └── quiz_generator.py     # Multiple-choice quiz generation
-│   ├── evaluation/
-│   │   └── metrics.py            # Recall@K, faithfulness, relevance
-│   └── utils/
-│       ├── logger.py             # Centralised logging
-│       └── visualizer.py         # Plotly chart helpers
-├── vectorstore_data/             # ChromaDB persistent storage (auto-created)
+RAG-Powered-Knowledge-Assistantf-for-Teachers/
+├── README.md
+├── app.py
 ├── requirements.txt
-└── README.md
 ```
+
+</details>
 
 ---
 
-## ⚙️ Technology Stack
+## 🚀 Getting Started
 
-| Component | Technology |
-|-----------|-----------|
-| **UI Framework** | Streamlit |
-| **Embeddings** | sentence-transformers (`all-MiniLM-L6-v2`) |
-| **Vector Store** | ChromaDB (persistent, local) |
-| **LLM** | HuggingFace (`google/flan-t5-large`) |
-| **PDF Parsing** | pdfplumber |
-| **DOCX Parsing** | python-docx |
-| **Chunking** | langchain-text-splitters |
-| **Re-ranking** | cross-encoder/ms-marco-MiniLM-L-6-v2 |
-| **Visualisation** | Plotly |
+### Prerequisites
 
----
+- Python 3.10+ (or Node.js 18+ for web apps)
+- Git & Virtualenv
 
-## 📦 Requirements
-
-- **Python 3.10+**
-- **pip** (package manager)
-- ~3 GB disk space for models (downloaded on first run)
-- No GPU required (runs on CPU)
-
----
-
-## 🚀 Setup & Installation
-
-### 1. Clone / navigate to the project
+### Installation & Execution
 
 ```bash
-cd teacher_rag
-```
+# 1. Clone the repository
+git clone https://github.com/IbrahimAbdelsattar/RAG-Powered-Knowledge-Assistantf-for-Teachers.git
+cd RAG-Powered-Knowledge-Assistantf-for-Teachers
 
-### 2. Create a virtual environment (recommended)
+# 2. Set up virtual environment (Python)
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
-```bash
-python -m venv venv
-
-# Windows
-venv\Scripts\activate
-
-# macOS / Linux
-source venv/bin/activate
-```
-
-### 3. Install dependencies
-
-```bash
+# 3. Install dependencies
 pip install -r requirements.txt
-```
 
-### 4. Run the application
-
-```bash
+# 4. Launch project execution
 streamlit run app.py
 ```
 
-The app will open in your browser at `http://localhost:8501`.
-
 ---
 
-## 📖 Usage Guide
+## 👤 Author & Contact
 
-### Getting Started (Quick Demo)
+<div align="center">
 
-1. Open the app and navigate to the **🏠 Home** page.
-2. Click **"📦 Load Demo Content"** to load three built-in educational texts (Biology, History, Mathematics).
-3. Go to **💬 Ask Questions** and try:
-   - *"What is photosynthesis?"*
-   - *"When did World War II begin?"*
-   - *"Who invented calculus?"*
+**Ibrahim Abdelsattar**  
+*Data Scientist & AI Specialist · MTI University (CS & AI, GPA 3.5)*
 
-### Uploading Your Own Documents
+[Email](mailto:ibrahimabdelsattar042@gmail.com) · [GitHub](https://github.com/IbrahimAbdelsattar) · [LinkedIn](https://linkedin.com/in/ibrahim-abdelsattar)
 
-1. Navigate to **📤 Document Management**.
-2. Click the file uploader and select PDF, DOCX, or TXT files.
-3. Click **"Upload & Index"** — the progress bar shows each step.
-4. Your documents are now searchable in the knowledge base.
+<br/>
 
-### Asking Questions
+<img src="https://img.shields.io/badge/Made%20with-Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Maintained%20by-Ibrahim%20Abdelsattar-7C3AED?style=for-the-badge"/>
 
-1. Go to **💬 Ask Questions**.
-2. Type your question in the chat input.
-3. The assistant will search your documents and provide a sourced answer.
-4. Expand **"📎 Sources"** to see exactly which documents and pages were used.
-5. Adjust retrieval settings (Top-K, re-ranking, threshold) in the right sidebar.
-
-### Generating Quizzes
-
-1. Navigate to **📝 Quiz Generator**.
-2. Choose to generate by **Topic** or **Document**.
-3. Set the number of questions and difficulty level.
-4. Click **"Generate Quiz"** and interact with the questions.
-5. Download the quiz as a text file for classroom use.
-
-### Summarising Documents
-
-1. Go to **📄 Document Summarizer**.
-2. Select a document from the dropdown.
-3. Click **"Generate Summary"** to get a concise overview.
-4. View compression statistics and download the summary.
-
----
-
-## 🔧 Configuration
-
-All settings are in `configs/config.yaml`. Key options:
-
-| Setting | Default | Description |
-|---------|---------|-------------|
-| `chunk_size` | 512 | Characters per chunk |
-| `chunk_overlap` | 64 | Overlap between chunks |
-| `chunking_strategy` | recursive | `fixed` or `recursive` |
-| `embedding_model` | all-MiniLM-L6-v2 | Sentence transformer model |
-| `top_k` | 5 | Number of chunks retrieved |
-| `rerank` | true | Enable cross-encoder re-ranking |
-| `generation_model` | google/flan-t5-large | Primary LLM |
-| `max_new_tokens` | 512 | Max generation length |
-| `similarity_threshold` | 0.3 | Minimum retrieval score |
-
----
-
-## 🧪 How RAG Works
-
-1. **Ingestion:** Documents are parsed, cleaned, and split into overlapping chunks.
-2. **Embedding:** Each chunk is encoded into a 384-dimensional vector using a sentence transformer.
-3. **Storage:** Vectors and metadata are stored in ChromaDB for persistent, fast retrieval.
-4. **Retrieval:** When a question is asked, it is embedded and the most similar chunks are found via cosine similarity.
-5. **Re-ranking:** A cross-encoder model re-scores the top candidates for higher precision.
-6. **Generation:** The retrieved context is injected into a prompt and passed to the LLM, which generates a grounded answer.
-
----
-
-## 📊 Evaluation Metrics
-
-The **Analytics & Evaluation** page provides:
-
-- **Answer Relevance:** Cosine similarity between question and answer embeddings.
-- **Context Faithfulness:** Word-overlap score between the answer and retrieved context.
-- **Retrieval Scores:** Per-chunk similarity and re-rank scores visualised as charts.
-- **Timing Breakdown:** Retrieval vs generation time in pie and waterfall charts.
-
----
-
-## 🛡️ Privacy & Security
-
-- **100% local processing** — no data leaves your machine.
-- **No API keys required** — all models run locally via HuggingFace.
-- **Persistent storage** — your knowledge base survives app restarts.
-- **No telemetry** — zero tracking or data collection.
-
----
-
-## 📝 License
-
-This project is for educational purposes.
-
----
-
-## 🤝 Acknowledgements
-
-- [Streamlit](https://streamlit.io/) — UI framework
-- [HuggingFace Transformers](https://huggingface.co/docs/transformers/) — LLM inference
-- [Sentence-Transformers](https://www.sbert.net/) — Text embeddings
-- [ChromaDB](https://www.trychroma.com/) — Vector store
-- [pdfplumber](https://github.com/jsvine/pdfplumber) — PDF extraction
+</div>
