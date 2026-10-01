@@ -23,6 +23,38 @@ A Streamlit interface designed for document-based educational question answering
 
 The feature list describes the interface's intended workflow; backend implementation and end-to-end operation cannot be confirmed from the files currently present.
 
+## UML diagrams
+
+### Expected import dependencies
+
+The diagram records the dependencies imported by app.py. The src modules are absent from this checkout, so these names describe expected interfaces rather than verified class implementations.
+
+```mermaid
+classDiagram
+    direction TB
+    class StreamlitApp {
+        <<module>>
+        app.py
+    }
+    class RAGPipeline {
+        <<missing>>
+    }
+    class QuizGenerator {
+        <<missing>>
+    }
+    class EvaluationMetrics {
+        <<missing>>
+    }
+    class Visualizer {
+        <<missing>>
+    }
+    StreamlitApp ..> RAGPipeline : imports
+    StreamlitApp ..> QuizGenerator : imports
+    StreamlitApp ..> EvaluationMetrics : imports
+    StreamlitApp ..> Visualizer : imports
+    note for StreamlitApp "Startup requires the missing src package"
+```
+
 ## Getting started
 
 ```bash
